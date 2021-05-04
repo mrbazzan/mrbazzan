@@ -1,6 +1,7 @@
 - 👋 Hi, I’m Abdulwasiu(A.K.A BAZZAN)
 - 👀 I’m interested in web development and machine learning
-- 🌱 I’m currently learning **flask**
+-  Proficient in Flask.
+- 🌱 I’m currently learning **Django**
 - 💞️ I’m looking to collaborate on open source projects related to python
 - 📫 How to reach me: abdulwasiuapalowo@gmail.com or **@mrbazzan** on twitter
 
