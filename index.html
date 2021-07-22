@@ -4,22 +4,24 @@
 
   <head>
       <title>Bazzan</title>
-      <link href="styles/index.css" rel="stylesheet" type="text/css">
+      <link href="index.css" rel="stylesheet" type="text/css">
 
   </head>
 
     <nav id="navbar">
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="">Resume</a></li>
+            <li id="navbar-home" class="active"><a href="#welcome-section">Home</a></li>
+            <li id="navbar-about"><a href="#about">About</a></li>
+            <li id="navbar-contact"><a href="#contact">Contact</a></li>
+            <li id="navbar-resume"><a href="https://drive.google.com/file/d/1HFt4in7N5QQdWc6M0AqIXxrdiWx0rIhu/view?usp=sharing" target="_blank">Resume</a></li>
         </ul>
     </nav>
 
-    <section id="welcome-section">
+    <section id="welcome-section" class="textcenter">
         <h1>Abdulwasiu Apalowo</h1>
-        <p>A software Engineer and Open Source Contributor</p>
+        <br>
+        <img src="Linkedin passport.jpg" alt="Abdulwasiu's passport" class="imagecenter">
+        <small><i>A software Engineer and Open Source Contributor</i></small>
     </section>
 
     <section id="about">
@@ -27,14 +29,14 @@
             <p>Hello! My name is Abdulwasiu, and I'm a Software Developer. I develop
                 back-end web applications and API with Python(Django and Flask).
                 I enjoy reading novels, watching American Football and Basketball.
-                I really enjoy contributing to open source projects.
+                I also really enjoy contributing to open source projects.
             </p>
         </div>
         <div>
             <h2>SKILLS & TECH STACK: </h2>
             <ul>
                 <li>Python --> Django and Flask</li>
-                <li>Writing</li>
+                <li>Technical Writing</li>
                 <li>Javascript</li>
                 <li>Git</li>
                 <li>Testing</li>
@@ -43,9 +45,9 @@
         <div>
             <h2>WORK</h2>
             <ul>
-                <li><a href="" target="_blank">Zuri Team</a></li>
-                <li><a href="" target="_blank">Hamoye</a></li>
-                <li><a href="" target="_blank">Coven Labs</a></li>
+                <li><a href="" target="_blank">Zuri Team</a>— Web Developer</li>
+                <li><a href="" target="_blank">Hamoye</a>— Data Science Intern</li>
+                <li><a href="" target="_blank">Coven Labs</a>— Machine Learning Intern</li>
             </ul>
         </div>
     </section>
@@ -53,8 +55,7 @@
     <section id="projects">
         <h2>PROJECTS</h2>
         <div>
-
-            <div>
+            <div class="setsize">
                 <div>
                     <b><a href="https://baz-django-blog.herokuapp.com/" target="_blank">Blog.</a></b>
                 </div>
@@ -66,7 +67,7 @@
                     <small>Python &nbsp; Django &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b><a href="https://stocka-be.herokuapp.com/" target="_blank">Blog.</a></b>
                 </div>
@@ -77,7 +78,7 @@
                     <small>Python &nbsp; Django &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b>COUNTRY CLI.</a></b>
                 </div>
@@ -90,7 +91,7 @@
                     <small>Python &nbsp; SQL &nbsp; Click &nbsp; CLI &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b>Airbnb Profile Ranking System.</a></b>
                 </div>
@@ -102,7 +103,7 @@
                     <small>Python &nbsp; BeautifulSoup &nbsp; Selenium &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b><a href="" target="_blank">Weather App</a></b>
                 </div>
@@ -112,7 +113,7 @@
                     <small>Python &nbsp; Flask &nbsp; OpenWeatherMap API &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b>Image Viewer</b>
                 </div>
@@ -123,8 +124,7 @@
                     <small>Python &nbsp; Tkinter &nbsp; Pillow &nbsp;</small>
                 </div>
             </div>
-
-            <div>
+            <div class="setsize">
                 <div>
                     <b>SQL ANALYSIS.</b>
                 </div>
@@ -135,7 +135,7 @@
                     <small>SQL &nbsp; Jupyter Notebook &nbsp;</small>
                 </div>
             </div>
-            <div>
+            <div class="setsize">
                 <div>
                     <b><a href="https://ex-blogg.herokuapp.com/">Blog.</a></b>
                 </div>
@@ -151,9 +151,12 @@
 
         <h2>OPEN SOURCE WORK</h2>
         <ul>
-            <li><b><a href="https://github.com/EndlessTrax/pyanchor">Pyanchor.</a></b> A python package for finding broken links on a webpage.
-                I <a href="https://github.com/EndlessTrax/pyanchor/pull/25">wrote</a> the command line usage analysis of the documentation.
-                I also<a hfef="">contributed</a> to the command line features.
+            <li>
+                <b><a href="https://github.com/EndlessTrax/pyanchor">Pyanchor.</a></b>
+                <p>A python package for finding broken links on a webpage.
+                I <a href="https://github.com/EndlessTrax/pyanchor/pull/25">wrote</a> the documentation for the command line usage.
+                I also <a hfef="">added</a> link-analysis to the command line features.
+                </p>
             </li>
             <li>
 
@@ -172,9 +175,9 @@
                 <i class="fab fa-github"></i>
                 LinkedIn
             </a>
-            <a href="https://github.com/mrbazzan" target="_blank">
+            <a href="" target="_blank">
                 <i class="fab fa-github"></i>
-                Mail
+                Phone Number
             </a>
         </div>
     </section>
@@ -182,10 +185,11 @@
     <p> I am actively searching for backend development roles with Python.
         If you're hiring, <a href="mailto:abdulwasiuapalowo@gmail.com">please get in touch</a></p>
 
-    <footer>
-        <p>© Created by Bazzan|2021</p>
+    <footer class="footer textcenter">
+        <p>© Created by <a href="#navbar">Bazzan</a>|2021</p>
     </footer>
     
   </body>
 
+  <script src="main.js"></script>
 </html>

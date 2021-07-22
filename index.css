@@ -1,0 +1,127 @@
+
+body {
+    margin: 0;
+    font-family: Calibri;
+    background-color: white;
+}
+
+section {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1, h2, h3 {
+    color: green;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-family: monospace;
+    font-size: 25px;
+}
+
+small {
+    text-shadow: 0.2px 0.2px black;
+    color: lightgrey;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover:not(.active) {
+    background-color: #555;
+}
+
+.active {
+    background-color: #4CAF50;
+}
+
+#welcome-section{
+    padding: 20px;
+    margin-top: 30px;
+}
+
+#about{
+    padding-top: 40px;
+    margin-top: 10px;
+}
+
+.textcenter {
+    text-align: center;
+}
+
+img {
+    max-width: 35%;
+    border-style: none;
+    border-radius: 60%;
+}
+
+.imagecenter {
+    display: block;
+    margin: 0 auto;
+}
+
+section a {
+    text-decoration: none;
+    color: lightgreen;
+}
+
+section a:hover {
+    color: green;
+}
+
+section#about div p {
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 30px;
+    word-spacing: 0.2px;
+    text-indent: 35px;
+}
+
+
+.footer {
+    border: 1px ridge black;
+    background-color: black;
+    color: white;
+    line-height: 2;
+    font-family: Helvetica;
+}
+
+footer p a {
+    color: white;
+    text-decoration: none;
+}
+
+section ul {
+    line-height: 30px;
+}
+
+.setsize {
+    width: 300px;
+    height: 100px;
+    padding: 5px;
+    border: 3px solid red
+}
