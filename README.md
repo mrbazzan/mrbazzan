@@ -1,9 +1,10 @@
 - 👋 Hi, I’m Abdulwasiu(A.K.A BAZZAN)
-- 👀 I’m interested in web development and machine learning
+- 👀 I’m interested in software development. I developed web applications and APIs with Python's Flask and Django Framework.
 -  Proficient in **Flask, Django**
 - 🌱 I’m currently learning **Javascript**
-- 💞️ I’m looking to collaborate on open source projects related to Python
-- 📫 How to reach me: **bazzanapalowo@gmail.com**
+- 💞️ I love contributing to open source projects.
+- 📫 How to reach me: **bazzanapalowo@gmail.com*
+- I am actively looking for backend development roles with Python.
 
 <!---
 mrbazzan/mrbazzan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
