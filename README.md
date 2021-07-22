@@ -3,7 +3,10 @@
 -  Proficient in **Flask, Django**
 - 🌱 I’m currently learning **Javascript**
 - 💞️ I love contributing to open source projects.
-- 📫 How to reach me: **bazzanapalowo@gmail.com*
+- 📫 How to reach me: **abdulwasiuapalowo@gmail.com*
+
+- Check out my porfolio page: https://mrbazzan.github.io/portfolio/
+
 - I am actively looking for backend development roles with Python.
 
 <!---
