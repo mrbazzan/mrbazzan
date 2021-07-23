@@ -3,6 +3,7 @@ body {
     margin: 0;
     font-family: Calibri;
     background-color: white;
+    font-size: 100%;
 }
 
 section {
@@ -20,7 +21,7 @@ h1 {
 
 h2 {
     font-family: monospace;
-    font-size: 25px;
+    font-size: 35px;
 }
 
 small {
@@ -119,9 +120,95 @@ section ul {
     line-height: 30px;
 }
 
+div.innersetsize b {
+    font-size: 30px;
+}
+
 .setsize {
-    width: 300px;
-    height: 100px;
+    display: flex;
+    text-alig: center;
+    /* border: 1px ridge purple; */
+    flex-direction: column;
+    justify-content: center;
+}
+
+.innersetsize {
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0.3) !important;
+}
+
+.bottomdiv {
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.leftend {
+    align-self: flex-start;
+    flex: 1.7;
+    font-family: "Lucida Sans Unicode";
+    font-size: 15px;
+}
+
+.leftend a:link, .leftend a:visited {
+    color: lightgreen;
+    border: 1px solid lightgreen;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 20px;
     padding: 5px;
-    border: 3px solid red
+}
+
+.leftend a:hover, .leftend a:visited {
+    background-color: green;
+}
+
+.rightend {
+    align-self: baseline;
+    flex: 3.4;
+    text-align: right;
+}
+
+.upperdiv {
+    padding-left: 10px;
+}
+
+.middlediv p {
+    text-align: center;
+    font-family: Verdana;
+}
+
+.item1 {
+    order: 1;
+}
+
+.item2 {
+    order: 2;
+}
+
+.item3 {
+    order: 3;
+}
+
+.item4 {
+    order: 4;
+}
+
+.item5 {
+    order: 5;
+}
+
+.item6 {
+    order: 6;
+}
+
+.item7 {
+    order: 7;
+}
+
+.item8 {
+    order: 8;
 }
