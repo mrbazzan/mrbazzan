@@ -125,11 +125,10 @@ div.innersetsize b {
 }
 
 .setsize {
-    display: flex;
-    text-alig: center;
-    /* border: 1px ridge purple; */
-    flex-direction: column;
-    justify-content: center;
+        display: flex;
+        border: 1px solid purple;
+        flex-direction: column;
+        justify-content: center;
 }
 
 .innersetsize {
@@ -211,4 +210,126 @@ div.innersetsize b {
 
 .item8 {
     order: 8;
+}
+
+@media all and (min-width: 600px) {
+
+    .setsize {
+        display: flex;
+        text-align: center;
+        border: 1px ridge purple;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item1 {
+        order: 1;
+        width: 10rem;
+        height: 17rem;
+    }
+
+    .item2 {
+        order: 3;
+        width: 10rem;
+        height: 13rem;
+    }
+
+    .item3 {
+        order: 2;
+        width: 15rem;
+        height: 17rem;
+    }
+
+    .item4 {
+        order: 4;
+        width: 15rem;
+        height: 17rem;
+    }
+
+    .item5 {
+        order: 6;
+        width: 15rem;
+        height: 11rem;
+    }
+
+    .item6 {
+        order: 7;
+        width: 10rem;
+        height: 12rem;
+    }
+
+    .item7 {
+        order: 8;
+        width: 10rem;
+        height: 10rem;
+    }
+
+    .item8 {
+        order: 5;
+        width: 10rem;
+        height: 13rem;
+    }
+
+}
+
+@media all and (min-width: 900px) {
+
+    .setsize {
+        display: flex;
+        text-align: center;
+        border: 1px ridge purple;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .item1 {
+        order: 1;
+        width: 25rem;
+        height: 10rem;
+    }
+
+    .item2 {
+        order: 2;
+        width: 25rem;
+        height: 10rem;
+    }
+
+    .item3 {
+        order: 3;
+        width: 51rem;
+        height: 10rem;
+    }
+
+    .item4 {
+        order: 4;
+        width: 51rem;
+        height: 10rem;
+    }
+
+    .item5 {
+        order: 5;
+        width: 25rem;
+        height: 10rem;
+    }
+
+    .item6 {
+        order: 6;
+        width: 25rem;
+        height: 10rem;
+    }
+
+    .item7 {
+        order: 7;
+        width: 25rem;
+        height: 10rem;
+    }
+
+    .item8 {
+        order: 8;
+        width: 25rem;
+        height: 10rem;
+    }
+
 }
