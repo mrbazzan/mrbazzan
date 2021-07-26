@@ -353,10 +353,32 @@ div.innersetsize b {
     border: 10px solid white;
 }
 
+.fas {
+    font-family: "Font Awesome 5 Free";
+}
+
+/*
 .fa-linkedin {
     content: "\f0e1";
+    color: #2867B2;
 }
 
 .fa-github {
     content: "\f09b";
 }
+
+.fa-phone-alt {
+    content: "\f879";
+}
+*/
+
+.help-needed {
+    text-align: center;
+    text-indent: 15px;
+}
+
+.help-needed a{
+    color: lightgreen;
+    text-decoration: none;
+}
+
