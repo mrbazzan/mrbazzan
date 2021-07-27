@@ -7,8 +7,8 @@ body {
 }
 
 section {
-    margin-left: 5%;
-    margin-right: 5%;
+    margin-left: 8%;
+    margin-right: 8%;
 }
 
 h1, h2, h3 {
@@ -100,20 +100,6 @@ section#about div p {
     line-height: 30px;
     word-spacing: 0.2px;
     text-indent: 35px;
-}
-
-
-.footer {
-    border: 1px ridge black;
-    background-color: black;
-    color: white;
-    line-height: 2;
-    font-family: Helvetica;
-}
-
-footer p a {
-    color: white;
-    text-decoration: none;
 }
 
 section ul {
@@ -353,24 +339,10 @@ div.innersetsize b {
     border: 10px solid white;
 }
 
-.fas {
-    font-family: "Font Awesome 5 Free";
+.fas, .fab {
+    color: lightgreen;
+    font-family: 'Segoe UI Light'
 }
-
-/*
-.fa-linkedin {
-    content: "\f0e1";
-    color: #2867B2;
-}
-
-.fa-github {
-    content: "\f09b";
-}
-
-.fa-phone-alt {
-    content: "\f879";
-}
-*/
 
 .help-needed {
     text-align: center;
@@ -382,3 +354,40 @@ div.innersetsize b {
     text-decoration: none;
 }
 
+
+#contact {
+    background-color: #222222;
+    margin: 0px;
+    margin-bottom: -1.0rem;
+}
+
+#contact h2{
+    margin: 2px 5% 1.5rem 5%;
+}
+
+.contact-details {
+    display: flex;
+    margin: 0 8% 1rem 8%;
+    padding: 2px;
+}
+
+.left {
+    order: 1;
+    flex: 1;
+}
+
+.right {
+    order: 2;
+    flex: 8;
+}
+
+.footer {
+    background-color: #111111;
+    color: white;
+    padding: 6rem;
+}
+
+.footer p a {
+    color: white;
+    text-decoration: none;
+}
