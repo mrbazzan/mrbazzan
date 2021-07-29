@@ -331,11 +331,10 @@ div.innersetsize b {
 }
 
 .open-source p {
-    font-size: 16px;
-    font-family: Arial;
+    margin: 15px;
 }
 
-.space {
+.hr {
     border: 10px solid white;
 }
 
@@ -345,6 +344,7 @@ div.innersetsize b {
 }
 
 .help-needed {
+    margin-top: 3rem;
     text-align: center;
     text-indent: 15px;
 }
