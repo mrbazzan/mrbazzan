@@ -198,7 +198,7 @@ div.innersetsize b {
     order: 6;
 }
 
-@media all and (min-width: 600px) {
+/* @media all and (min-width: 600px) {
 
     .setsize {
         display: flex;
@@ -257,6 +257,7 @@ div.innersetsize b {
     }
 
 }
+*/
 
 @media all and (min-width: 900px) {
 
