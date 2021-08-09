@@ -272,13 +272,13 @@ div.innersetsize b {
     .item1 {
         order: 1;
         width: 25rem;
-        height: 10rem;
+        height: 11rem;
     }
 
     .item2 {
         order: 2;
         width: 25rem;
-        height: 10rem;
+        height: 11rem;
     }
 
     .item3 {
@@ -296,7 +296,7 @@ div.innersetsize b {
     .item5 {
         order: 5;
         width: 25rem;
-        height: 10rem;
+        height: 11rem;
     }
 
     .item6 {
@@ -314,7 +314,7 @@ div.innersetsize b {
     .item8 {
         order: 6;
         width: 25rem;
-        height: 10rem;
+        height: 11rem;
     }
 
 }
