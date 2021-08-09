@@ -335,8 +335,9 @@ div.innersetsize b {
     margin: 15px;
 }
 
-.hr {
-    border: 10px solid white;
+.source {
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
 }
 
 .fas, .fab {
