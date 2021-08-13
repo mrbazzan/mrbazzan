@@ -4,7 +4,7 @@
 - 🌱 I’m currently learning **Javascript**
 - 💞️ I love contributing to open source projects.
 - 📫 How to reach me: **abdulwasiuapalowo@gmail.com*
-- I am actively looking for backend development roles with Python
+- I am actively looking for backend development roles with Python.
 
 <!---
 mrbazzan/mrbazzan is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
